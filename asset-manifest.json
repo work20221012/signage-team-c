@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/signage-team-c/static/css/main.65a0986f.css",
+    "main.js": "/signage-team-c/static/js/main.07fe4d09.js",
+    "static/media/logo2-b.png": "/signage-team-c/static/media/logo2-b.64aa55a480f5f8998586.png",
+    "index.html": "/signage-team-c/index.html",
+    "main.65a0986f.css.map": "/signage-team-c/static/css/main.65a0986f.css.map",
+    "main.07fe4d09.js.map": "/signage-team-c/static/js/main.07fe4d09.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.65a0986f.css",
+    "static/js/main.07fe4d09.js"
+  ]
+}
