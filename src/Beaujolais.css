@@ -1,0 +1,24 @@
+.cat {
+    position: relative;
+}
+
+  ul {
+    display: flex;
+    padding: 0;
+    justify-content: center;
+  }
+
+  li {
+    list-style: none;
+  }
+
+  .qr {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    
+    position: absolute;
+    top: 65%;
+    left: 45%;
+}
