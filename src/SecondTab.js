@@ -2,7 +2,7 @@
 const SecondTab = () => {
   const tabStyle = {
     fontSize: 40,
-    backgroundColor: 'lightblue'
+    backgroundColor: 'pink'
   }
   return (
     <div style={tabStyle}>Second Tab</div>
