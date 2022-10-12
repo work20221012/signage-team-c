@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 
 const API_KEY_NEWS = 'ccaa9497c2404e869f27578f6c5dc1ca'
 const NEWS_API_URL = 'https://newsapi.org/v2/top-headlines'
-const NewsViewer = () => {
+const NewsViewer = (props) => {
   const [news, setNews] = useState(null);
   useEffect(() => {
     fetch(NEWS_API_URL + '?country=jp&apikey=' + API_KEY_NEWS)
@@ -22,9 +22,7 @@ const NewsViewer = () => {
   } else {
     return (
       <div>
-        <NewsItem article={news[0]} />
-        <NewsItem article={news[1]} />
-        <NewsItem article={news[2]} />
+        <NewsItem article={news[props.page]} />
       </div>
     )
   }
